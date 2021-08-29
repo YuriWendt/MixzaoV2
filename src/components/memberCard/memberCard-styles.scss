@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: var(--text-color);
+}
+:root {
+    --bg-shape-color: linear-gradient(120deg, #343a4f, #0f1620);
+    --lightblue: #3d9dea;
+    --darkblue: #4a4eee;
+    --text-color: #d5e1ef;
+}
+
+.info-text {
+    h2 {
+        color: var(--text-color);
+    }
+    h3 {
+        color: var(--lightblue);
+    }
+}
+
+.logos {
+    margin-top: 10px;
+    width: 120px;
+    height: 80px;
+}
+.profile {
+    width: 120px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+.character {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #0f1620;
+}
+
+.tabelaMembros {
+    display: grid;
+    width: 350px;
+    height: 450px;
+    border-radius: 40px;
+    background-image: linear-gradient(120deg, #343a4f, #0f1620);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.icon {
+    width: 200px;
+    background-image: linear-gradient(85deg, #61c7ef, #4833fb);
+    border-radius: 8px;
+    margin: 20px;
+    p {
+        font-size: 15px;
+    }
+}
+
+.front {
+    transition: 500ms;
+}
+
+.back {
+    transition: 500ms;
+    display: none;
+}
+
+.tabelaMembrosClick {
+    display: flex;
+    width: 350px;
+    height: 450px;
+    border-radius: 40px;
+    background-image: linear-gradient(120deg, #343a4f, #0f1620);
+    text-align: center;
+    margin-top: 20px;
+    h3{
+        display: none;
+    }
+    .profile {
+        border-radius: 50%;
+    }
+    .front {
+        max-width: 100px;
+        transform: translateX(-10%) scale(0.7);
+    }
+    .back {
+        display: block;
+        grid-template-columns: auto, auto;
+    }
+}

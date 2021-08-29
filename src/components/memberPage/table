@@ -1,0 +1,98 @@
+//Membros
+import sora from '../membros/img/sorinha.jpg';
+import bng from '../membros/img/bng.jpg';
+import jukk from '../membros/img/jukk.jpg';
+import jader from '../membros/img/jader.jpg';
+import breno from '../membros/img/breno.jpg';
+import marshal from '../membros/img/marshal.jpg';
+import napz from '../membros/img/napz.jpg';
+import kauan from '../membros/img/kauan.jpg';
+import fell from '../membros/img/fell.jpg';
+import matsu from '../membros/img/matsu.jpg';
+import pedrosa from '../membros/img/pedrosa.jpg';
+import srk from '../membros/img/leosrk.jpg';
+import jeffin from '../membros/img/jeffin.jpg';
+import dibeira from '../membros/img/dibeira.jpg';
+import niv from '../membros/img/niv.jpg';
+import sozo from '../membros/img/sozo.jpg';
+import finale from '../membros/img/finale.jpg';
+import vitao from '../membros/img/vitao.jpg';
+import todd from '../membros/img/todd.jpg';
+import lucasig from '../membros/img/lucasig.jpg';
+
+//Logos
+import valorant from '../membros/img/valorant.png';
+import riven from '../membros/img/irelia.png';
+import league from '../membros/img/league.png';
+import cod from '../membros/img/cod.png';
+import csgo from '../membros/img/csgo.png';
+
+<div className="col">
+                    <table className="table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Nome</th>
+                                <th>Main Game</th>
+                                <th>Nick</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><Image className="profile"src={sora} roundedCircle /></td>
+                                <td><h2>Yuri</h2></td>
+                                <td><Image className="logos" src={valorant} rounded/></td>
+                                <td><h2>Sor1nha</h2></td>
+                            </tr>
+                            <tr>
+                                <td><Image className="profile"src={bng} roundedCircle /></td>
+                                <td><h2>Bruno</h2></td>
+                                <td><Image className="logos" src={valorant} rounded/></td>
+                                <td><h2>Trace'11</h2></td>
+                            </tr>
+                            <tr>
+                                <td><Image className="profile"src={breno} roundedCircle /></td>
+                                <td><h2>Breno</h2></td>
+                                <td><Image className="logos" src={valorant} rounded/></td>
+                                <td><h2>The God Brenin</h2></td>
+                            </tr>
+                            <tr>
+                                <td><Image className="profile"src={jukk} roundedCircle /></td>
+                                <td><h2>Felipe</h2></td>
+                                <td><Image className="logos" src={league} rounded/></td>
+                                <td><h2>Jukk</h2></td>
+                            </tr>
+                            <tr>
+                                <td><Image className="profile"src={jader} roundedCircle /></td>
+                                <td><h2>Jader</h2></td>
+                                <td><Image className="logos" src={league} rounded/></td>
+                                <td><h2>Hesttia</h2></td>
+                            </tr>
+                            <tr>
+                                <td><Image className="profile"src={marshal} roundedCircle /></td>
+                                <td><h2>Gabriel</h2></td>
+                                <td><Image className="logos" src={league} rounded/></td>
+                                <td><h2>Marshal</h2></td>
+                            </tr>
+                            <tr>
+                                <td><Image className="profile"src={kauan} roundedCircle /></td>
+                                <td><h2>Kauan</h2></td>
+                                <td><Image className="logos" src={cod} rounded/></td>
+                                <td><h2>Kauanzera</h2></td>
+                            </tr>
+                            <tr>
+                                <td><Image className="profile"src={napz} roundedCircle /></td>
+                                <td><h2>Caio</h2></td>
+                                <td><Image className="logos" src={valorant} rounded/></td>
+                                <td><h2>N4pz</h2></td>
+                            </tr>
+                            <tr>
+                                <td><Image className="profile"src={fell} roundedCircle /></td>
+                                <td><h2>Felix</h2></td>
+                                <td><Image className="logos" src={valorant} rounded/></td>
+                                <td><h2>Fellzera</h2></td>
+                            </tr>
+                        </tbody>
+                    </table>
+               </div>
+               </div>
